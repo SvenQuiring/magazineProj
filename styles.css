@@ -1,0 +1,14 @@
+.header
+{
+    padding: 60px;
+    text-align: center;
+    background: #77dd77;
+    color: white;
+    font-size: 30px;
+    border-radius: 20px;
+  }
+
+.font
+{
+  font-family: sans-serif;
+}
