@@ -10,9 +10,10 @@
   font-size: 100%;
 }
 
-.Logo{
+.Logo
+{
   position: fixed;
-  top: 0;
+  top: 2%; 
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -29,9 +30,21 @@
   background-color: #292929;
 }
 
+.headbutton
+{
+  border: none;
+  color: white;
+  background-color: #292929;
+  text-align: center;
+  font-size: 125%;
+  cursor: pointer;
+  height: 100%;
+}
 
-
-
+.headbutton:hover
+{
+  background-color: #303030;
+}
 
 .stheader
 {
