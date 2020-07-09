@@ -18,6 +18,16 @@
   height: 7%;
   background-color: #292929;
 }
+.headerLogo{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+#Algo{
+  width: 10%;
+  position: sticky;
+  top: 0;
+}
 
 .stheader
 {
