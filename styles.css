@@ -29,7 +29,31 @@
   height: 7%;
   background-color: #292929;
 }
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  z-index: 1;
+}
+.dropdown-content:hover{
+  background-color: #303030;
+}
 
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+
+.dropdown-content a{
+  border: none;
+  color: white;
+  background-color: #292929;
+  text-align: center;
+  font-size: 125%;
+  font-family: Corbel; 
+  cursor: pointer;
+  height: 100%;
+
+}
 .headbutton
 {
   border: none;
@@ -37,6 +61,7 @@
   background-color: #292929;
   text-align: center;
   font-size: 125%;
+  font-family: Corbel; 
   cursor: pointer;
   height: 100%;
 }
