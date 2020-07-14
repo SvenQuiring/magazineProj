@@ -6,7 +6,9 @@
 
 html, body
 {
-  height: 100%;
+  background: url(img/Fondo.png) no-repeat center center fixed;
+  position: relative;
+  background-size: cover;
 }
 
 #header
@@ -16,7 +18,7 @@ html, body
   width: 100%;
   height: 20%; 
   text-align: center;
-  background: #c958a3;
+  background: #fe00fc;
   color: white;
   font-size: 100%;
 }
@@ -113,6 +115,7 @@ body
   padding: 1%;
   margin: 0;
   font-family: 'Arial Narrow', Arial, sans-serif;
+  color: white;
 }
 
 #container
@@ -128,12 +131,36 @@ body
   font-family: 'Arial Narrow', Arial, sans-serif;
 }
 
+#Titulo{
+  text-align: center;
+  font-size: 3vw;
+  font-family: Corbel;
+}
+#Subtitulo{
+  text-align: center;
+  color:white;
+  font-family: Corbel;
+  font-size: 1vw;
+}
+#Parrafo{
+  text-align: justify;
+  font-size: 1.6vw;
+  font-family: Corbel;
+}
+#lista{
+  font-family: Corbel;
+  font-size: 1vw;
+}
+#Foto{
+  width:30%;
+}
+
 #footer
 {
   position: relative;
   height: 14%;
   clear: both;
-  background-color: #ffd54a;
+  background-color: #292929;
   color: black;
   text-align: center;
   width: 100%;
