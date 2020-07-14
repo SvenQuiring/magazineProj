@@ -161,6 +161,7 @@ body
   padding: 1%;
   margin: 0;
   font-family: 'Arial Narrow', Arial, sans-serif;
+  color: white;
 }
 
 #container
@@ -180,7 +181,7 @@ body
   position: relative;
   height: 14%;
   clear: both;
-  background-color: #ffd54a;
+  background-color: #292929;
   color: black;
   text-align: center;
   width: 100%;
