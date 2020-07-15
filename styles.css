@@ -21,7 +21,9 @@ html, body
   color: white;
   font-size: 100%;
 }
-
+#Scroller{
+  padding-right: 60%;
+}
 .a 
 {
   cursor: pointer;
