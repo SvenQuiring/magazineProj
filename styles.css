@@ -18,7 +18,6 @@ html, body
   width: 100%;
   height: 20%; 
   text-align: center;
-  background: #fe00fc;
   color: white;
   font-size: 100%;
 }
@@ -188,4 +187,12 @@ body
   color: black;
   text-align: center;
   width: 100%;
+}
+#Parrafo2{
+  text-align: center;
+  font-size: 1.6vw;
+  font-family: Corbel;
+}
+#Foto2{
+  width:50%;
 }
