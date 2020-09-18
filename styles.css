@@ -61,7 +61,7 @@ html, body
 .headbuttonr
 {
   position: relative;
-  right: 5%;
+  right: 0%;
   border: none;
   color: white;
   background-color: #292929;
@@ -77,7 +77,7 @@ html, body
 .headbuttonl
 {
   position: relative;
-  left: 5%; 
+  left: 0%; 
   border: none;
   color: white;
   background-color: #292929;
