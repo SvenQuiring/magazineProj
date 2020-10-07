@@ -264,3 +264,24 @@ body
 #Foto2{
   width:50%;
 }
+
+
+@media screen and (max-width: 1200px){
+  .index-wrapper{
+    padding: 2% 2%;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .index-wrapper2{
+    padding: 2% 2%;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .seccion1{
+    margin: 2% 15%;
+  }
+  .img1{
+    width: 250px;
+    float: none;
+  }
+}
