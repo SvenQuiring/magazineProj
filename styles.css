@@ -99,11 +99,6 @@ html, body
 {
   background-color: #383838;
 }
-.img-fluid {
-  width: 100%; 
-  height: 100%;
-}
-
 .stheader
 {
   position: sticky;
@@ -133,12 +128,75 @@ body
 
 #main
 {
-  overflow: auto;
-  padding-top: 4%;
-  padding-bottom: 4%;
+  padding: 2% 5%;
+  width: 100%;
   font-family: 'Arial Narrow', Arial, sans-serif;
 }
+.logo{
+  width: 200px;
+}
+.gridLanding{
+  width: 100%;
+  height: 50vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
 
+  background-color: rgb(41, 41, 41);
+}
+.landing{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.gridIndex{
+  background-color: rgb(41, 41, 41);
+}
+.index-wrapper{
+  padding: 2% 2%;
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+.index-wrapper2{
+  padding: 2% 2%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.seccion1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img1{
+  margin: 0 2%;
+  float: left;
+}
+.img2{
+  width: 180px;
+  margin: 0 2%;
+  float: left;
+}
+.info a{
+  border: 2px solid white;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+.bar{
+  margin-top: 50px;
+  background-color: black;
+  height: 50px;
+}
+.bar .title-wrapper{
+  background-color: red;
+  width: 200px;
+  height: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 #Titulo{
   text-align: center;
   font-size: 3vw;
