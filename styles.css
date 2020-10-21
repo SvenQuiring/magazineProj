@@ -71,7 +71,7 @@ html, body
   cursor: pointer;
   height: 100%;
   float: right;
-  padding: 0 2% 0 2%;
+  padding: 0 1% 0 1%;
 }
 
 .headbuttonl
@@ -87,7 +87,7 @@ html, body
   cursor: pointer;
   height: 100%;
   float: left;
-  padding: 0 2% 0 2%;
+  padding: 0 1% 0 1%;
 }
 
 .headbuttonr:hover
@@ -128,7 +128,7 @@ body
 
 #main
 {
-  padding: 2% 5%;
+  padding: 4% 0;
   width: 100%;
   font-family: 'Arial Narrow', Arial, sans-serif;
 }
